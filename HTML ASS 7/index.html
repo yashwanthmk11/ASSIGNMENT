@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Elements Example</title>
+</head>
+<body>
+    <h1>Media Elements Example</h1>
+
+    <section>
+        <h2>Audio Player</h2>
+        <p>Below is an audio player that allows you to listen to a sample audio track. Use the controls to play, pause, or adjust the volume.</p>
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Video Player</h2>
+        <p>Below is a video player that allows you to watch a sample video. Use the controls to play, pause, or adjust the volume.</p>
+        <video controls width="600">
+            <source src="D:\video\WhatsApp Video 2024-06-15 at 23.21.31_b62fba70.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+</style>
+</html>
